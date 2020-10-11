@@ -1,0 +1,55 @@
+#site {
+    width: 1000px;
+    height: 700px;
+    /* defino la posición que la pagina tiene en la pantalla */
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #FCF2EE;
+}
+#header {
+    width: 1000px;
+    height: 1200px;
+}
+#cuerpo {
+    width: 1000px;
+    height: 1000px;
+}
+#cuerpo-left {
+    width: 750px;
+    height: 1200px;
+    /* float para que el bloque flote en determinada posición en la pagina */
+    float: left;
+    text-align: left;
+    background-color: #F6DACB;
+    padding: 10px;
+    border-radius: 11px;
+    line-height: 25px;
+}
+#cuerpo-right {
+    width: 200px;
+    height: 600px;
+    /* float para que el bloque flote en determinada posición en la pagina. Se pone también a la izquierda porque está en el mismo nivel que cuerpo left y juntos ocupan el ancho de la página */
+    float: right;
+    text-align: right;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 13px;
+}
+#footer {
+    width: 200px;
+    height: 300px;
+    float: right;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: right;
+    padding-right: 10px;
+}
+#fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+    
+}
